@@ -1,0 +1,14 @@
+.DS_Store
+dist/
+node_modules/
+.bowerrc
+gulpfile.js
+package-lock.json
+package.json
+app/js/
+app/libs/
+app/css/media.css
+app/css/libs.css
+app/css/fonts.css
+app/css/media.sass
+app/css/package.json

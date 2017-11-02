@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" media="screen" href="css/main.css">
+	<meta name="viewport" content="width=device-width initial-scale=1.0">
+	<title>Widget-Tokyo</title>
+</head>
+<body>
+	<article class="widget container">
+		<div class="widget__grid row">
+		<div class="widget__columns col-md-12">
+			<div class="widget__left widget__left_bg-img col-xs-6 col-sm-4 col-sm-offset-1 col-md-3 col-md-offset-3 col-lg-2 col-lg-offset-3">
+				<button class="col-md-2 col-sm-2 col-xs-2 widget__choose_button">>></button>
+				<input type='text' class="col-md-10 col-sm-10 col-xs-10 widget__choose_city" placeholder="Please, enter city name"/>
+				<p class="widget__left-text row"><img class="widget__left-text widget__left-weather" src="img/widget__left-weather.png" alt="current-weather"/></p>
+				<p class="widget__left-text widget__left-text_dark row">----</p>
+				<p class="widget__left-text widget__left-text_red row">City name - weekday, month date</p>
+			</div>
+
+			<div class="widget__right widget__right_bg-img col-xs-6 col-sm-4 col-md-3 col-lg-2">
+				<p class="widget__right-tempr row"><span class="widget__main-temp">--</span>&#176;C</p>
+				<p class="widget__right-diagram row"><img src="img/widget__rigth-graf.png" alt="diagram" class="widget__right-graf"></p>
+				<ul class="widget__right-list row">
+					<li class="widget__right-prev col-md-1">
+						<p class="widget__right-text-prev"><</p>
+					</li>
+					<li class="widget__right-elem col-md-3">
+						<p class="widget__right-text widget__right-text_sun"></p>
+						<p class="widget__right-text widget__right-text_day">---</p>
+						<p class="widget__right-text widget__right-text_temp-day">--˚C</p>
+						<p class="widget__right-text widget__right-text_temp-night">--˚C</p>
+					</li>
+					<li class="widget__right-elem col-md-3">
+						<p class="widget__right-text widget__right-text_cloudy"></p>
+						<p class="widget__right-text widget__right-text_day">---</p>
+						<p class="widget__right-text widget__right-text_temp-day">--˚C</p>
+						<p class="widget__right-text widget__right-text_temp-night">--˚C</p>
+					</li>
+					<li class="widget__right-elem col-md-3">
+						<p class="widget__right-text widget__right-text_cloudy"></p>
+						<p class="widget__right-text widget__right-text_day">---</p>
+						<p class="widget__right-text widget__right-text_temp-day">--˚C</p>
+						<p class="widget__right-text widget__right-text_temp-night">--˚C</p>
+					</li>
+					<li class="widget__right-next col-md-1">
+						<p class="widget__right-text-next">></p>
+					</li>
+				</ul>
+				</div>
+			</div>
+		</div>
+	</article>
+
+<script src="js/libs.min.js"></script>
+<script src="js/common.js"></script>
+</body>
+</html>
